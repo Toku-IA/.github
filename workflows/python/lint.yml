@@ -1,0 +1,32 @@
+name: Linter / Formatter
+
+on:
+  workflow_call:
+    inputs:
+      python-version:
+        description: "Python version to setup environment"
+        required: true
+        type: string
+      flake8-args:
+        description: "Args to be used within flake8"
+        required: false
+        type: string
+        default: "--ignore=E203,W503,E711,E712 --max-line-length=120 app.py integrations/ middlewares/ routers/ utils/"
+
+jobs:
+  flake8-lint:
+    runs-on: ubuntu-latest
+    name: Lint
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v2
+
+      - name: Set up Python environment
+        uses: actions/setup-python@v1
+        with:
+          python-version: "${{ inputs.python-version }}"
+
+      - name: flake8 Lint
+        uses: py-actions/flake8@v2
+        with:
+          args: "${{ inputs.flake8-args }}"
