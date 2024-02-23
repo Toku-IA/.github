@@ -1,14 +1,10 @@
-### [Related Jira card]()
+### [Related card]()
 
-# Related PRs (optional)
+# Related PRs
 
 - PR 1
-- PR 2
 
 # Changes 🔄
 
 - None
 
-# How to test ✅
-
-- None
