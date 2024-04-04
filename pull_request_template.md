@@ -1,4 +1,5 @@
-# Relateds issues
+# Related issues
+
 - Part of \<ID1\>
 - Part of \<ID2\>
 
