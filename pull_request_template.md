@@ -3,6 +3,9 @@
 **Context:**  
 Briefly explain what this PR is about. Why are we making these changes? What is the problem being solved or feature being added? Any additional considerations?
 
+**Approach:**  
+Provide a high-level description of how you implemented the solution. Focus on key decisions or alternatives you considered.
+
 # Testing 🧪
 
 **How it was tested:**  
