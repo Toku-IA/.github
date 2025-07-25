@@ -1,16 +1,16 @@
-# What does this PR do and why? 🤔
+<!--
+⚠️ Reminder: Edit the PR title to briefly describe your change.
+-->
 
-**Context:**  
-Briefly explain what this PR is about. Why are we making these changes? What is the problem being solved or feature being added? Any additional considerations?
+# 🔗 Relevant links
 
-**Approach:**  
-Provide a high-level description of how you implemented the solution. Focus on key decisions or alternatives you considered.
+- 📋 Related to: <!-- ◀️ Paste Linear URL on the left, outside this comment -->
+<!-- Add any other relevant links, such as Notion 📚, Incident 🔥, Slack 💬, or related documentation 📝 -->
 
-# Testing 🧪
+# 🏞️ Additional context
 
-**How it was tested:**  
-List tests you added or modified (unit tests, integration tests, manual tests). Mention edge cases, if any.
+<!-- Add ANY additional context not covered by the relevant links. -->
 
-# Related PRs 🔗 (Optional)
+# 💡 Solution
 
-- List any related PRs across different repositories that might impact or complement this one.
+<!-- Summarize the key implementation details. Focus on the main decisions or alternatives considered, in a few lines. -->
